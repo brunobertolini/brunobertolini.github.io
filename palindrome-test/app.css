@@ -1,0 +1,54 @@
+* {
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+}
+
+.title {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.input {
+    border: none;
+    border-bottom: 1px solid #CCC;
+    padding: 10px;
+    font-size: 2em;
+    width: 500px;
+}
+
+.centered {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+.result {
+    padding: 15px;
+    text-align: center;
+}
+
+.result .fa {
+    font-size: 2em;
+    vertical-align: middle;
+}
+
+.result .text {
+    display: inline-block;
+    padding: 10px;
+}
+
+#results-success {
+    display: none;
+    color: #29b664;
+}
+
+#results-error {
+    display: none;
+    color: #c0392b;
+}
+
+.hide {
+    display: none;
+}
